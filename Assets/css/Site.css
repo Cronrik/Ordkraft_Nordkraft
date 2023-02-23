@@ -14,6 +14,27 @@ header{
     padding: 0;
     padding-bottom: 20px;
 }
+#profilbillede{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menuprofil > button{
+    background-color: #bf1f2c;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+}
+
+#butProfil{
+    left: 10vw;
+}
+#butProgam{
+    left: 30vw;
+}
+
 .navtoggle{
     display: none;
 }
@@ -24,6 +45,7 @@ nav{
 
 .navtoggle:checked ~ nav {
     display: block;
+    background-color: white;
 }
 
 .navtoggleLabel{
@@ -36,6 +58,22 @@ nav{
     height: 55px;
     width: 51px;
     margin-right: 10px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 7px;
+    margin: 5px;
+    border-style: solid;
+    border-color: #bf1f2c;
+    border-radius: 10px;
+    background-color: white;
+    width: 50vw;
+}
+
+#underpunkter > li{
+    width: 25vw;
 }
 
 /*Main*/
@@ -69,8 +107,12 @@ button{
 }
 
 /*Undgå at spilde tid*/
+#section2{ 
+    margin-top: 55px;
+}
 #kortNordkraft{
     width: 90%;
+    height: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -79,7 +121,25 @@ button{
     border-radius: 10px;
 }
 /*Åbningstider for Ordkraft*/
+#section3 > h2 > i{
+    color: #bf8034;
+}
 .gridcontainerAFO{
     display: grid;
     grid-template-columns: 33% 33% 33%;
+}
+
+/*Find din vej*/
+#kortAalborg{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #bf1f2c;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#section4 > p > i{
+    color: #bf8034;
 }
