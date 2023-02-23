@@ -1,9 +1,18 @@
 html{
     scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
 }
-
+body{
+    padding: 0;
+    margin: 0;
+}
+/* header/nav */
 header{
     background-color: #bf1f2c;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
 }
 .navtoggle{
     display: none;
@@ -17,6 +26,60 @@ nav{
     display: block;
 }
 
-#logo{
+.navtoggleLabel{
+    margin-left: 10px;
+    color: white;
+}
+
+#navLogo{
     float: right;
+    height: 55px;
+    width: 51px;
+    margin-right: 10px;
+}
+
+/*Main*/
+h1{
+    color: #bf1f2c;
+    text-align: center;
+}
+h2{
+    color: #bf1f2c;
+}
+/*Næstkommende begivenheder*/
+
+.gridcontainerNB{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+.gridcontainerNB > i{
+    margin: auto;
+}
+
+button{
+    background-color: #bf1f2c;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    
+}
+
+/*Undgå at spilde tid*/
+#kortNordkraft{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #bf1f2c;
+    border-style: solid;
+    border-radius: 10px;
+}
+/*Åbningstider for Ordkraft*/
+.gridcontainerAFO{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
