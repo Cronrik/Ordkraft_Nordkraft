@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+.user_Cover {
+  background-image: url("../Assets/Image/usercover.png");
+  background-color: blue;
+  background-size: cover;
+  width: 100%;
+  max-height: 220px;
+  padding-top: 5%;
+}
+
+.user_Cover > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-radius: 50%;
+}
+
+section > ul > li {
+  list-style-type: none;
+  border-radius: 25px;
+  border: 2px solid #e61414;
+  margin: 1%;
+  max-width: 15%;
+  padding: 1% 1% 1% 1%;
+}
+section > ul > li > a {
+  color: rgb(5, 0, 0);
+  text-decoration: none;
+  font-size: 21px;
+}
+
+section > ul > li > i {
+  color: brown;
+  padding-right: 5%;
+  font-size: 30px;
+}
+/* edit user profile */
+.user_Edit {
+  background-color: aqua;
+}
+.icon_Wrapper > i {
+  color: brown;
+}
