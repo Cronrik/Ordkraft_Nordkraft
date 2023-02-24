@@ -6,31 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Assets/css/Site.css">
-    <script src="Assets/js/Site.js"></script>
+    <script src="Assets/js/Site.js" defer></script>
+    <script src="https://kit.fontawesome.com/ccff2f2860.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <img src="" alt="logo" id="logo">
+        <img src="Assets/image/ordkraft-logo (1).png" alt="logo" id="navLogo">
         <input type="checkbox" id="navtoggleID" class="navtoggle">
 
         <label for="navtoggleID" class="navtoggleLabel">
             <span>
-                <p>klik</p>
+                <i class="fa-solid fa-bars fa-3x"></i>
             </span>
         </label>
         <nav>
             <section id="burgerMenu">
+                <img src="Assets/image/COLOURBOX58944128.jpg" alt="profilbillede" id="profilbillede">
                 <section id="menuProfil">
-                    <img src="" alt="profilbillede">
-                    <button>Min profil</button>
-                    <button>Mit program</button>
+                    <button id="butProfil">Min profil</button>
+                    <button id="butProgram">Mit program</button>
                 </section>
                 <ul>
                     <li>Hjem</li>
                     <li>
                         <details>
                             <summary>Hvad kan jeg opleve?</summary>
-                            <ul>
+                            <ul id="underpunkter">
                                 <li>Medvirkende</li>
                                 <li>Begivenheder</li>
                             </ul>
@@ -50,20 +51,55 @@
         <h1>Ord- og Litteraturfestival i Aalborg</h1>
 
         <section>
-            <h2>Næstkommende Events</h2>
+            <h2>Næstkommende Begivenheder</h2>
+                <section class="gridcontainerNB">
+                    <i class="fa-regular fa-star"></i>
+                    <article>
+                        <p>hiofewhio</p>
+                        <p>ehioihco</p>
+                        <p>ihiewfi</p>
+                    </article>
+                    <i class="fa-solid fa-location-dot"></i>
+                </section>
+
+                <button>Se flere Begivenheder</button>
 
         </section>
 
-        <section>
-            <h2>Find rundt på Nordkraft</h2>
+        <section id="section2">
+            <h2>Undgå at spilde din tid</h2>
+            <p>Find rundt på Nordkraft</p>
+            <img src="Assets/image/nordkraft_loa_plan-niv-1.jpg" alt="Kort over Nordkraft" id="kortNordkraft"> 
         </section>
 
-        <section>
-            <h2>Åbningstider for Ordkraft</h2>
+        <section id="section3">
+            <h2> <i class="fa-regular fa-clock"></i> Åbningstider for Ordkraft</h2>
+               <article class="gridcontainerAFO">
+                <section>
+                    <p>7/4/22</p>
+                    <p>8/4/22</p>
+                    <p>9/4/22</p>
+                </section>
+
+                <section>
+                    <p>Torsdag</p>
+                    <p>Fredag</p>
+                    <p>Lørdag</p>
+                </section>
+
+                <section>
+                    <p>09:15-21:30</p>
+                    <p>09:15-21:30</p>
+                    <p>09:15-21:30</p>
+                </section>
+               </article>
         </section>
 
-        <section>
+        <section id="section4">
             <h2>Find vej til Nordkraft</h2>
+            <img src="Assets/image/Skærmbillede 2023-02-23 kl. 16.13.36.png" alt="kort over Aalborg" id="kortAalborg">
+            <p> <i class="fa-solid fa-location-dot"></i> Teglgaards plads 1</p>
+            <p> <i class="fa-solid fa-phone"></i> 99824130</p>
         </section>
 
     </main>
