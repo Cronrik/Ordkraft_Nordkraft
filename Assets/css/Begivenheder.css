@@ -93,13 +93,40 @@ h1{
 h2{
     color: #bf1f2c;
 }
-/*Næstkommende begivenheder*/
+/* Antal begivenheder på dagened */
+
+.gridcontainerDE{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    row-gap: 5px;
+}
+
+#eventDage > p{
+    background-color: #bf1f2c;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/*Begivenheder*/
+
+h2{
+    text-align: center;
+}
 
 .gridcontainerNB{
     display: grid;
     grid-template-columns: 20% 60% 20%;
     border-style: solid;
     border-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-align: center;
 }
 .gridcontainerNB > i{
     margin: auto;
@@ -115,42 +142,4 @@ button{
     position: absolute;
     left: 30%;
     
-}
-
-/*Undgå at spilde tid*/
-#section2{ 
-    margin-top: 55px;
-}
-#kortNordkraft{
-    width: 90%;
-    height: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: #bf1f2c;
-    border-style: solid;
-    border-radius: 10px;
-}
-/*Åbningstider for Ordkraft*/
-#section3 > h2 > i{
-    color: #bf8034;
-}
-.gridcontainerAFO{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-}
-
-/*Find din vej*/
-#kortAalborg{
-    width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: #bf1f2c;
-    border-style: solid;
-    border-radius: 10px;
-}
-
-#section4 > p > i{
-    color: #bf8034;
 }
