@@ -144,6 +144,7 @@ h2 {
     grid-template-columns: 10% 70% 6% 14%;
     border-style: solid;
     border-color: black;
+    margin-bottom: 5px;
 }
 
 .gridcontainerNB>i {
@@ -249,5 +250,8 @@ button{
 /* søge felt begivenheder.html */
 #søgFelt{
     width: 100%;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: #bf1f2c;
 }
 /* søge felt begivenheder.html */
