@@ -57,7 +57,7 @@ nav {
     margin-bottom: -10%;
 }
 
-.gridcontainerProfilBut{
+.gridcontainerProfilBut {
     display: grid;
     grid-template-columns: 45% 45%;
     margin-left: 20%;
@@ -78,7 +78,7 @@ nav {
 
 
 
-.gridcontainerProfilBut > p {
+.gridcontainerProfilBut>p {
     background-color: #bf1f2c;
     color: white;
     border-radius: 10px;
@@ -147,44 +147,44 @@ h2 {
     margin-bottom: 5px;
 }
 
-.gridcontainerNB > i {
+.gridcontainerNB>i {
     margin: auto;
     color: #bf8034;
 }
 
-#star{
+#star {
     color: grey;
 }
 
-#star2{
+#star2 {
     color: grey;
 }
 
-#star3{
+#star3 {
     color: grey;
 }
 
-#star4{
+#star4 {
     color: grey;
 }
 
-#star5{
+#star5 {
     color: grey;
 }
 
-.gridcontainerNB> p{
+.gridcontainerNB>p {
     color: black;
     font-size: 15px;
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
-#demo{
+#demo {
     color: #bf8034;
 }
 
-button{
+button {
     background-color: #bf1f2c;
     color: white;
     border-radius: 10px;
@@ -240,14 +240,14 @@ button{
 
 /* Antal begivenheder på dagened begivenheder.html */
 
-.gridcontainerDE{
+.gridcontainerDE {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     text-align: center;
     row-gap: 5px;
 }
 
-#eventDage > a{
+#eventDage>a {
     background-color: #bf1f2c;
     color: white;
     border-radius: 10px;
@@ -258,29 +258,33 @@ button{
     margin-bottom: 10px;
 }
 
-#eventDage > a > p{
+#eventDage>a>p {
     padding: 0;
     margin: 0;
 }
+
 /* Antal begivenheder på dagened begivenheder.html */
 
 /* søge felt begivenheder.html */
-#søgFelt{
-    width: 100%;
+#søgFelt {
+    width: 95%;
+    margin-left: 5px;
     border-radius: 50px;
     border-width: 2px;
     border-color: #bf1f2c;
 }
+
 /* søge felt begivenheder.html */
 
 /* hr i begivenheder.html */
-hr{
+hr {
     border: 1px solid red;
 }
+
 /* hr i begivenheder.html */
 
 /* Arrow to scroll to the top of the page */
-.upArrow{
+.upArrow {
     text-align: center;
 }
 
@@ -291,10 +295,11 @@ hr{
     position: absolute;
     margin-top: 1%;
 }
+
 /* tilbage function til flere sider */
 
 /* Main for øvrigeop.thml */
-.venstrePil{
+.venstrePil {
     padding-left: 3%;
     color: #bf1f2c;
     position: absolute;
@@ -303,48 +308,48 @@ hr{
     transform: translate(-50%, -50%);
 }
 
-.sectionOne{
-   position: relative;
-   text-align: left;
-   color: white; 
+.sectionOne {
+    position: relative;
+    text-align: left;
+    color: white;
 }
 
-#azuraBillede{
+#azuraBillede {
     width: 100%;
 }
 
-#SAZURA{
+#SAZURA {
     position: absolute;
     top: 50%;
     left: 27%;
     transform: translate(-50%, -50%);
 }
 
-#ÅFO{
+#ÅFO {
     font-size: 1.6em;
     text-align: center;
     color: #bf1f2c;
 }
 
-#icons{
+#icons {
     color: #BF8034;
 }
 
 
-.ordHeleÅret{
+.ordHeleÅret {
     text-align: center;
     color: #bf1f2c;
 }
 
-#iconI{
+#iconI {
     color: black;
 }
 
-.brødText{
+.brødText {
     padding-left: 5.5%;
 }
 
-.læsMere{
+.læsMere {
     background-color: #bf1f2c;
     color: white;
     border-radius: 10px;
@@ -372,11 +377,6 @@ hr{
     margin: 2vw;
     padding: 1% 5%;
     left: 25%;
-}
-
-#søgefelt {
-    text-align: center;
-    padding-bottom: 5vh;
 }
 
 .filtre {
@@ -445,11 +445,6 @@ hr{
 @media screen and (max-width: 391px) {
     #filtreSection>button {
         left: 10%;
-    }
-
-    #søgefelt {
-        padding-bottom: 2vh;
-        padding-top: 2vh;
     }
 
     #medvirkendeVindueStørrelse {
@@ -600,7 +595,7 @@ hr{
 .venstrePilRute {
     padding-left: 3%;
     color: #bf1f2c;
-} 
+}
 
 #map {
     width: 100%;
@@ -622,6 +617,6 @@ hr{
 }
 
 .hrSection {
-    
+
     background-color: rgb(223, 223, 223);
 }
