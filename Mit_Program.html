@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Assets/css/Begivenheder.css">
+    <link rel="stylesheet" href="Assets/css/Site.css">
     <script src="Assets/js/Site.js" defer></script>
     <script src="https://kit.fontawesome.com/ccff2f2860.js" crossorigin="anonymous"></script>
 </head>
@@ -47,74 +47,272 @@
             </section>
         </nav>
     </header>
+
     <main>
-        <h1>Begivenheder</h1>
+        <h1 id="top">Begivenheder</h1>
 
         <section class="gridcontainerDE">
             <p>T</p>
             <p>F</p>
             <p>L</p>
+        </section>
+        <hr/>
 
-            <p>7</p>
-            <p>8</p>
-            <p>9</p>
+        <section class="gridcontainerDE">
+        <p>7</p>
+        <p>8</p>
+        <p>9</p>
         </section>
 
         <article class="gridcontainerDE" id="eventDage">
-            <p>Torsdag</p>
-            <p>Fredag</p>
-            <p>Lørdag</p>
+            <a href="#begivenhederTorsdag"><p>Torsdag</p></a>
+            <a href="#begivenhederFredag"><p>Fredag</p></a>
+            <a href="#begivenhederLørdag"><p>Lørdag</p></a>
         </article>
 
-
         <section>
-            <h2>Torsdag</h2>
-            <section class="gridcontainerNB">
-                <i class="fa-regular fa-star"></i>
-                <article>
-                    <p>hiofewhio</p>
-                    <p>ehioihco</p>
-                    <p>ihiewfi</p>
-                </article>
-                <article>
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p>Location</p>
-                </article>
-            </section>
+            <input type="text" placeholder="Søg" id="søgFelt">
         </section>
 
-        <section>
+        <section id="begivenhederTorsdag">
+            <h2>Torsdag</h2>
+
+            <section class="gridcontainerNB">
+
+                <i onclick="myFunction()" id="star" class="fa-solid fa-star fa-xl"></i>
+
+                <article>
+                    <p>Åbning af Ordkraft - Med masser af Ordfyldte indslag</p>
+                    <p>Tors. d. 7/4/2022 kl. 15:00 - 15:45</p>
+                </article>
+
+                <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                <p>Royal Stage</p>
+            </section>
+
+            <section class="gridcontainerNB">
+
+                <i onclick="myFunction2()" id="star2" class="fa-solid fa-star fa-xl"></i>
+
+                <article>
+                    <p>Caspar Eric (moderator: Matilde Berg)</p>
+                    <p>“Vi kan gøre meget” - Digtsuiter med samfundsbevidsthed</p>
+                    <p>Tors. d. 7/4/2022 kl. 16:00 - 16:45</p>
+                </article>
+
+                <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                <p>Biffen - Sal B</p>
+            </section>
+
+            <section class="gridcontainerNB">
+
+                <i onclick="myFunction3()" id="star3" class="fa-solid fa-star fa-xl"></i>
+
+                <article>
+                    <p>Connie Anette Nordholt</p>
+                    <p>Oplæsning af "Sort på hvidt" - Kunstbog og digtsamling</p>
+                    <p>Tors. d. 7/4/2022 kl. 16:30 - 16:45</p>
+                </article>
+
+                <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                <p>Biblio- tekernes scene</p>
+            </section>
+
+            <section class="gridcontainerNB">
+
+                <i onclick="myFunction4()" id="star4" class="fa-solid fa-star fa-xl"></i>
+
+                <article>
+                    <p>Svend Brinkmann (moderator: Rolf Dahl)</p>
+                    <p>“Vi er det liv vi lever” - 90-årige Lillis spændende livshistorie</p>
+                    <p>Tors. d. 7/4/2022 kl. 18 - 18:45</p>
+                </article>
+
+                <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                <p>Royal Stage</p>
+            </section>
+
+            <section class="gridcontainerNB">
+
+                <i onclick="myFunction5()" id="star5" class="fa-solid fa-star fa-xl"></i>
+
+                <article>
+                    <p>Petra Nagel (moderator: Lotte Lykke)</p>
+                    <p>“Ting jeg har lært, da det var for sent” - Humoristisk feltguide til voksenlivet</p>
+                    <p>Tors. d. 7/4/2022 kl. 18 - 18:45</p>
+                </article>
+
+                <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                <p>Biffen - Sal B</p>
+            </section>
+
+        </section>
+
+        <section id="begivenhederFredag">
             <h2>Fredag</h2>
             <section class="gridcontainerNB">
-                <i class="fa-regular fa-star"></i>
+
+                <i onclick="myFunction()" class="fa-solid fa-star fa-xl"></i>
+
                 <article>
-                    <p>hiofewhio</p>
-                    <p>ehioihco</p>
-                    <p>ihiewfi</p>
+                    <p>Annette Heick (moderator: Julie Keldorf</p>
+                    <p>“Datteren” - Bogen om hendes liv</p>
+                    <p>Fre. d. 8/4/2022 kl. 12:30 - 13:15</p>
                 </article>
+
+                <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                <p>Royal Stage</p>
+            </section>
+
+            <section class="gridcontainerNB">
+
+                <i onclick="myFunction()" class="fa-solid fa-star fa-xl"></i>
+
                 <article>
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p>Location</p>
+                    <p>Diana Bach</p>
+                    <p>“Om DR Romanprisen 2022 - Præsentation af de nominerede</p>
+                    <p>Fre. d. 8/4/2022 kl. 13:00 - 13:30</p>
                 </article>
+
+                <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                <p>Biblio- tekernes scene</p>
+            </section>
+
+            <section class="gridcontainerNB">
+
+                <i onclick="myFunction()" class="fa-solid fa-star fa-xl"></i>
+
+                <article>
+                    <p>Christina Englund (moderator: Pia Bechmann)</p>
+                    <p>"Slugt" - Intenst og følsomt romanportræt</p>
+                    <p>Fre. d. 8/4/2022 kl. 13:00 - 13:45</p>
+                </article>
+
+                <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                <p>Biblio- tekernes scene</p>
+            </section>
+
+            <section class="gridcontainerNB">
+
+                <i onclick="myFunction()" class="fa-solid fa-star fa-xl"></i>
+
+                <article>
+                    <p>Anne Dorte Michelsen (moderator: Mathias Jensen)</p>
+                    <p>Livet som tekstforfatter og musiker - Hvem er Anne Dorte?</p>
+                    <p>Fre. d. 8/4/2022 kl. 15:00 - 15:30</p>
+                </article>
+
+                <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                <p>Biffen - Sal B</p>
+            </section>
+
+            <section class="gridcontainerNB">
+
+                <i onclick="myFunction()" class="fa-solid fa-star fa-xl"></i>
+
+                <article>
+                    <p>Malene Charlotte Larsen</p>
+                    <p>Unge og Sociale medier - Hvordan opføre unge sig?</p>
+                    <p>Fre. d. 8/4/2022 kl. 15:45 - 16:00</p>
+                </article>
+
+                <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                <p>Biblio- tekernes scene</p>
             </section>
         </section>
 
-        <section>
+        <section id="begivenhederLørdag">
             <h2>Lørdag</h2>
             <section class="gridcontainerNB">
-                <i class="fa-regular fa-star"></i>
+
+                <i onclick="myFunction()" class="fa-solid fa-star fa-xl"></i>
+
                 <article>
-                    <p>hiofewhio</p>
-                    <p>ehioihco</p>
-                    <p>ihiewfi</p>
+                    <p>Jussie Adler Olsen (moderator: Ralf Dahl Gottschalk)</p>
+                    <p>“Natriumchlorid” - Nye beretninger fra Afdeling Q</p>
+                    <p>Lør. d. 9/4/2022 kl. 10:00 - 10:45</p>
                 </article>
+
+                <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                <p>Royal Stage</p>
+            </section>
+
+            <section class="gridcontainerNB">
+
+                <i onclick="myFunction()" class="fa-solid fa-star fa-xl"></i>
+
                 <article>
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p>Location</p>
+                    <p>Christina Ramskov</p>
+                    <p>At være ordblind og forfatter - Forfatter siden 2013</p>
+                    <p>Lør. d. 9/4/2022 kl. 11:15 - 11:30</p>
                 </article>
+
+                <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                <p>Biblio- tekernes scene</p>
+            </section>
+
+            <section class="gridcontainerNB">
+
+                <i onclick="myFunction()" class="fa-solid fa-star fa-xl"></i>
+
+                <article>
+                    <p>Lise Andersen (moderator: Lene Høg)</p>
+                    <p>Grønlands trilogi - Troværdig personskildring</p>
+                    <p>Lør. d. 9/4/2022 kl. 12:15 - 13:00</p>
+                </article>
+
+                <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                <p>Biffen - Sal B</p>
+            </section>
+
+            <section class="gridcontainerNB">
+
+                <i onclick="myFunction()" class="fa-solid fa-star fa-xl"></i>
+
+                <article>
+                    <p>Anette Leonora Andersen</p>
+                    <p>Læseglæde og læsefællesskaber - Oplev smittende læseglæde</p>
+                    <p>Lør. d. 9/4/2022 kl. 12:45 - 13:15</p>
+                </article>
+
+                <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                <p>Biblio- tekernes scene</p>
+            </section>
+
+            <section class="gridcontainerNB">
+
+                <i onclick="myFunction()" class="fa-solid fa-star fa-xl"></i>
+
+                <article>
+                    <p>Jesper Stein (moderator: Ralf Dahl Gottschalk)</p>
+                    <p>"Ædru" - Ædruhed efter alkoholmisbrug</p>
+                    <p>Lør d. 9/4/2022 kl. 13:45 - 14:30</p>
+                </article>
+
+                <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                <p>Royal Stage</p>
             </section>
         </section>
 
+        <section class="upArrow">
+            <a href="#top"><i class="fa-solid fa-caret-up fa-5x"></i></a>
+            
+        </section>
     </main>
 </body>
 
