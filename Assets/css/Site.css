@@ -141,7 +141,7 @@ h2 {
 
 .gridcontainerNB {
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 15% 70% 15%;
     border-style: solid;
     border-color: black;
 }
@@ -149,8 +149,7 @@ h2 {
 .gridcontainerNB>i {
     margin: auto;
 }
-
-.locationTekst {
+.locationTekst{
     margin: auto;
     margin-top: 50px;
 }
