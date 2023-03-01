@@ -325,14 +325,14 @@ hr{
     width: 100%;
 }
 
-h2{
+#SAZURA{
     position: absolute;
     top: 50%;
     left: 27%;
     transform: translate(-50%, -50%);
 }
 
-h1{
+#ÅFO{
     font-size: 1.6em;
     text-align: center;
     color: #bf1f2c;
