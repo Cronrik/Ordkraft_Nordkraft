@@ -1,0 +1,156 @@
+html{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header/Nav */ 
+header{
+    background-color: #bf1f2c;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+#profilbillede{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menuprofil > button{
+    background-color: #bf1f2c;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+}
+
+#butProfil{
+    left: 10vw;
+    background-color: #bf1f2c;
+    border: none;
+}
+#butProgram{
+    left: 30vw;
+    background-color: #bf1f2c;
+    border: none;
+}
+
+.navtoggle{
+    display: none;
+}
+nav{
+    display: none;
+    position: relative;
+}
+
+.navtoggle:checked ~ nav {
+    display: block;
+    background-color: white;
+}
+
+.navtoggleLabel{
+    margin-left: 10px;
+    color: white;
+}
+#navLogo{
+    float: right;
+    height: 55px;
+    width: 51px;
+    margin-right: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 7px;
+    margin: 5px;
+    border-style: solid;
+    border-color: #bf1f2c;
+    border-radius: 10px;
+    background-color: white;
+    width: 50vw;
+}
+
+#underpunkter > li{
+    width: 25vw;
+}
+
+/* Main */
+.venstrePil{
+    padding-left: 3%;
+    color: #bf1f2c;
+    position: absolute;
+    top: 7%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+}
+
+.sectionOne{
+   position: relative;
+   text-align: left;
+   color: white; 
+}
+
+#azuraBillede{
+    height: 210px;
+    width: 390px;
+}
+
+h2{
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-size: 1.6em;
+    text-align: center;
+    color: #bf1f2c;
+}
+
+#icons{
+    color: #BF8034;
+}
+
+.gridcontainerAFO{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-left: 10%;
+}
+
+hr{
+    width: 340px;
+}
+
+.ordHeleÅret{
+    text-align: center;
+    color: #bf1f2c;
+}
+
+#iconI{
+    color: black;
+}
+
+.brødText{
+    padding-left: 5.5%;
+}
+
+.læsMere{
+    background-color: #bf1f2c;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    text-align: center;
+    position: absolute;
+    left: 5.5%;
+
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5479276753.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="rutevejledning.css">
+    <title>Rutevejledning på Nordkraft</title>
+</head>
+<body>
+    <header>
+        <img src="assets/ordkraft-logo.png" alt="logo" id="navLogo">
+        <input type="checkbox" id="navtoggleID" class="navtoggle">
+        <label for="navtoggleID" class="navtoggleLabel">
+            <span>
+                <i class="fa-solid fa-bars fa-3x"></i>
+            </span>
+        </label>
+        <nav>
+            <section id="burgerMenu">
+                <img src="assets/COLOURBOX58944128.jpg" alt="profilbillede" id="profilbillede">
+                <section id="menuProfil">
+                    <button id="butProfil">Min profil</button>
+                    <button id="butProgram">Mit program</button>
+                </section>
+                <ul>
+                    <li>Hjem</li>
+                    <li>
+                        <details>
+                            <summary>Hvad kan jeg opleve?</summary>
+                            <ul>
+                            <ul id="underpunkter">
+                                <li>Medvirkende</li>
+                                <li>Begivenheder</li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>Rutevejledning på Nordkraft</li>
+                    <li>Køb Billet</li>
+                </ul>
+            </section> 
+        </nav>
+    </header>
+
+    <main>
+        <span class="venstrePil">
+            <i class="fa-solid fa-arrow-left-long fa-2x"></i>
+        </span>
+        
+        <section>
+            <img src="assets/nordkraft_loa_plan-niv-1.jpg" alt="map" id="map">
+        </section>
+
+        <section class="inputs">
+        <p>Fra</p>
+        <input type="text" id="from" name="from" placeholder="Hvor er du?">
+
+        <p>Til</p>
+        <input type="text" id="to" name="to" placeholder="Hvor vil du hen?">
+        </section>
+
+        <hr>
+
+        <p class="pText">
+            4 Minutter
+        </p>
+
+        <hr class="hrSection">
+
+        <h2>
+            Gå op ad trappen <i class="fa-solid fa-stairs" id="icons"></i>
+        </h2>
+
+        <hr class="hrSection">
+
+        <h2>
+            Gå til venstre <i class="fa-solid fa-arrows-split-up-and-left" id="icons"></i>
+        </h2>
+
+        <hr class="hrSection">
+
+        <h2>
+            Destinationen er nået <i class="fa-regular fa-flag" id="icons"></i>
+        </h2>
+    </main>
+
+
+    
+</body>
+</html>
