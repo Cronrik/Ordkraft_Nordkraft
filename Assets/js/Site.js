@@ -52,6 +52,6 @@ function windowOnClick(event) {
         toggleModal();
     }
 }
-// her bruges en envent listener 
+// her bruges en envent listener til at tjekke om tingene udløses 
 trigger.addEventListener("click", toggleModal);
 window.addEventListener("click", windowOnClick);
