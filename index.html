@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <script src="Assets/js/Site.js" defer></script>
     <script src="https://kit.fontawesome.com/ccff2f2860.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <img src="Assets/image/ordkraft-logo (1).png" alt="logo" id="navLogo">
@@ -23,8 +25,8 @@
             <section id="burgerMenu">
                 <img src="Assets/image/COLOURBOX58944128.jpg" alt="profilbillede" id="profilbillede">
                 <section id="menuProfil">
-                    <p id="butProfil">Min profil</p>
-                    <p id="butProgram">Mit program</p>
+                    <a href="Userprofile.html" id="butProfil">Min profil</a>
+                    <a href="Mit_Program.html" id="butProgram">Mit program</a>
                 </section>
                 <ul>
                     <li>Hjem</li>
@@ -41,9 +43,9 @@
                     <li>Køb Billet</li>
                 </ul>
             </section>
-            
+
         </nav>
-        
+
 
     </header>
 
@@ -52,32 +54,64 @@
 
         <section>
             <h2>Næstkommende Begivenheder</h2>
-                <section class="gridcontainerNB">
-                    <i onclick="myFunction()" id="demo" class="fa-solid fa-star fa-xl"></i> 
-                    <article>
-                        <p>hiofewhio</p>
-                        <p>ehioihco</p>
-                        <p>ihiewfi</p>
-                    </article>
-                    <article>
-                        
-                        <p class="locationTekst"> <i class="fa-solid fa-location-dot"></i> Location</p>
-                    </article>
-                </section>
+            <section class="gridcontainerNB">
 
-                <button>Se flere Begivenheder</button>
+                <i onclick="myFunction()" id="star" class="fa-solid fa-star fa-xl"></i>
+
+                <article>
+                    <p>Caspar Eric (moderator: Matilde Berg)</p>
+                    <p>“Vi kan gøre meget” - Digtsuiter med samfundsbevidsthed</p>
+                    <p>Tors. d. 7/4/2022 kl. 16:00 - 16:45</p>
+                </article>
+
+                    <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                    <p>Biffen - Sal B</p>
+            </section>
+
+            <section class="gridcontainerNB">
+
+                <i onclick="myFunction2()" id="star2" class="fa-solid fa-star fa-xl"></i>
+
+                <article>
+                    <p>Svend Brinkmann (moderator: Rolf Dahl)</p>
+                    <p>“Vi er det liv vi lever” - 90-årige Lillis spændende livshistorie</p>
+                    <p>Tors. d. 7/4/2022 kl. 18 - 18:45</p>
+                </article>
+
+                    <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                    <p>Royal Stage</p>
+            </section>
+
+            <section class="gridcontainerNB">
+
+                <i onclick="myFunction3()" id="star3" class="fa-solid fa-star fa-xl"></i>
+
+                <article>
+                    <p>Petra Nagel (moderator: Lotte Lykke)</p>
+                    <p>“Ting jeg har lært, da det var for sent” - Humoristisk feltguide til voksenlivet.</p>
+                    <p>Tors. d. 7/4/2022 kl. 18 - 18:45</p>
+                </article>
+
+                    <i id="demo" class="fa-solid fa-location-dot fa-xl"></i>
+
+                    <p>Biffen - Sal B</p>
+            </section>
+
+            <button>Se flere Begivenheder</button>
 
         </section>
 
         <section id="section2">
             <h2>Undgå at spilde din tid</h2>
             <p>Find rundt på Nordkraft</p>
-            <img src="Assets/Image/nordkraft_loa_plan-niv-1.jpg" alt="Kort over Nordkraft" id="kortNordkraft"> 
+            <img src="Assets/Image/nordkraft_loa_plan-niv-1.jpg" alt="Kort over Nordkraft" id="kortNordkraft">
         </section>
 
         <section id="section3">
             <h2> <i class="fa-regular fa-clock"></i> Åbningstider for Ordkraft</h2>
-               <article class="gridcontainerAFO">
+            <article class="gridcontainerAFO">
                 <section>
                     <p>7/4/22</p>
                     <p>8/4/22</p>
@@ -95,7 +129,7 @@
                     <p>09:15-21:30</p>
                     <p>09:15-21:30</p>
                 </section>
-               </article>
+            </article>
         </section>
 
         <section id="section4">
@@ -108,4 +142,5 @@
     </main>
 
 </body>
+
 </html>
