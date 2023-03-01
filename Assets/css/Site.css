@@ -304,3 +304,66 @@ hr{
     margin-top: 1%;
 }
 /* tilbage function til flere sider */
+
+/* Main for øvrigeop.thml */
+.venstrePil{
+    padding-left: 3%;
+    color: #bf1f2c;
+    position: absolute;
+    top: 7%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+}
+
+.sectionOne{
+   position: relative;
+   text-align: left;
+   color: white; 
+}
+
+#azuraBillede{
+    width: 100%;
+}
+
+h2{
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-size: 1.6em;
+    text-align: center;
+    color: #bf1f2c;
+}
+
+#icons{
+    color: #BF8034;
+}
+
+
+.ordHeleÅret{
+    text-align: center;
+    color: #bf1f2c;
+}
+
+#iconI{
+    color: black;
+}
+
+.brødText{
+    padding-left: 5.5%;
+}
+
+.læsMere{
+    background-color: #bf1f2c;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    text-align: center;
+    position: absolute;
+    left: 5.5%;
+
+}

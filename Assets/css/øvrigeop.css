@@ -82,7 +82,7 @@ li{
     width: 25vw;
 }
 
-/* Main */
+/* Main for øvrigeop.thml */
 .venstrePil{
     padding-left: 3%;
     color: #bf1f2c;
@@ -99,8 +99,7 @@ li{
 }
 
 #azuraBillede{
-    height: 210px;
-    width: 390px;
+    width: 100%;
 }
 
 h2{
