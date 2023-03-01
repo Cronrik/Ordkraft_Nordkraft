@@ -67,7 +67,6 @@ function myFunction5(){
         iconClick5.style.color = "grey";
     }
 }
-
 // dette er de values der bruges popup 
 const modal = document.querySelector(".popup");
 const trigger = document.querySelector(".udløs");
