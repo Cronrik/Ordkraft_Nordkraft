@@ -109,6 +109,10 @@ h2{
 .gridcontainerNB > i{
     margin: auto;
 }
+.locationTekst{
+    margin: auto;
+    margin-top: 50px;
+}
 
 button{
     background-color: #bf1f2c;
@@ -119,6 +123,7 @@ button{
     text-align: center;
     position: absolute;
     left: 30%;
+    margin-top: 10px;
     
 }
 
