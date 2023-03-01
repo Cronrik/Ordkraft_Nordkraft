@@ -39,19 +39,19 @@ function myFunction3(){
         iconClick3.style.color = "grey";
     }
 }
-
+// dette er de values der bruges popup 
 const modal = document.querySelector(".popup");
 const trigger = document.querySelector(".udløs");
-
+// her hiver man fat i hvis popup
 function toggleModal() {
     modal.classList.toggle("hvis_popup");
 }
-
+// her viser man window on click event 
 function windowOnClick(event) {
     if (event.target === modal) {
         toggleModal();
     }
 }
-
+// her bruges en envent listener 
 trigger.addEventListener("click", toggleModal);
 window.addEventListener("click", windowOnClick);
