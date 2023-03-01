@@ -295,3 +295,11 @@ hr{
 .upArrow{
     text-align: center;
 }
+
+/* tilbage function til flere sider */
+.tilbage {
+    color: #BF1F2C;
+    padding: 2%;
+    position: absolute;
+}
+/* tilbage function til flere sider */
