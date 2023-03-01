@@ -1,22 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="assets/css/site.css">
-    <link rel="stylesheet" href="assets/css/medvirkende.css">
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="/assets/css/medvirkende.css">
 
+    <script src="https://kit.fontawesome.com/ccff2f2860.js" crossorigin="anonymous"></script>
     <title>Ordkraft - Anette Leonora Andersen</title>
 </head>
-<body>
-    <a href="/medvirkende.html">
-        <i class="fa-solid fa-arrow-left"></i>
-    </a>
-    
-    <img src="/assets/image/medvirkende_img/anette-leonora-andersen.jpg" alt="Billede af Anette Leonora Andersen">
 
-    <h1>Anette Leonora Andersen</h1>
+<header>
+    <img src="/Assets/Image/ordkraft-logo (1).png" alt="logo" id="navLogo">
+    <input type="checkbox" id="navtoggleID" class="navtoggle">
+
+    <label for="navtoggleID" class="navtoggleLabel">
+        <span>
+            <i class="fa-solid fa-bars fa-3x"></i>
+        </span>
+    </label>
+    <nav>
+        <section id="burgerMenu">
+            <img src="Assets/image/COLOURBOX58944128.jpg" alt="profilbillede" id="profilbillede">
+            <p id="butProfil"><a href="Userprofile.html">Min profil</a> </p>
+            <p id="butProgram"><a href="Mit_Program.html">Mit program</a> </p>
+            <ul>
+                <li> <a href="index.html"><i class="fa-solid fa-house"></i> Hjem </a></li>
+                <li>
+                    <details>
+                        <summary><i class="fa-solid fa-people-group"></i>Hvad kan jeg opleve?</summary>
+                        <ul id="underpunkter">
+                            <li> <a href="medvirkende.html"> <i class="fa-solid fa-book-open-reader"></i>Medvirkende
+                                </a></li>
+                            <li> <a href="Begivenheder.html"> <i
+                                        class="fa-regular fa-calendar-days"></i>Begivenheder</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <li> <a href="Rutevejledning.html"> <i class="fa-solid fa-signs-post"></i>Rutevejledning på
+                        Nordkraft</a> </li>
+                <li> <a href="https://www.place2book.com/da/sw2/sales/event_list/EM6518"> <i
+                            class="fa-solid fa-ticket"></i>Køb Billet </a></li>
+            </ul>
+        </section>
+    </nav>
+</header>
+
+
+<body>
+    <section class="tilbage">
+        <a href="/medvirkende.html">
+            <i class="fa-solid fa-arrow-left tilbage"></i>
+        </a>
+    </section>
+
+
+    <img src="/assets/image/medvirkende_img/anette-leonora-andersen.jpg" alt="Billede af Anette Leonora Andersen"
+        class="medvirkendeIndiBillede">
+
+
+
+    <section class="medvirkendeBeskrivelse">
+        <h1>Anette Leonora Andersen</h1>
+        <p>Anette Leonora Andersen er uddannet cand. pæd. og har en stor forkærlighed for dansk litteratur,
+            såvel ny som klassisk, som hun blandt andet anmelder og omtaler på sin blog og Instagramprofil
+            @anetteslitteratursalon. </p>
+        <br>
+        <p> "Glæden ved at læse bøger er en livslang, kærlighed, der aldrig falmer. Igennem livet har jeg læst lidt
+            eller meget, men altid af lyst." - Anette Leonora Andersen </p>
+        <br>
+        <p> Hun er forfatter til “Læseglæde & Læsefællesskaber”, der udkom i marts 2022. En bog, der netop har fokus på
+            læseglæde og på, hvad læsning kan betyde for dig, samt hvordan du kan komme i gang med at læse, udfordre og
+            udvikle din læsning.</p>
+
+
+        <article class="værker">
+            <button>
+                <details>
+                    <summary> Seneste værker <i class="fa-solid fa-book"></i></summary>
+                    <ul class="værkerUl">
+                        <li>
+                            <p>Læseglæde og læsefællesskaber</p>
+                            <p class="italic">Udgivet: 22-03-2022</p>
+                        </li>
+                    </ul>
+                </details>
+            </button>
+        </article>
+    </section>
+
+
+
+    <section class="medvirkendeArrangement">
+        <h2>Arrangementer med Anette Leonora Andersen</h2>
+
+        <h3>Torsdag</h3>
+        <p class="italic">Ingen arrangementer med Anette Leonora Andersen</p>
+        <h3>Fredag</h3>
+        <p class="italic">Ingen arrangementer med Anette Leonora Andersen</p>
+        <h3>Lørdag</h3>
+        <p class="italic">Ingen arrangementer med Anette Leonora Andersen</p>
+    </section>
 </body>
+
 </html>
