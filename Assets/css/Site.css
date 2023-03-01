@@ -278,3 +278,8 @@ hr{
     border: 1px solid red;
 }
 /* hr i begivenheder.html */
+
+/* Arrow to scroll to the top of the page */
+.upArrow{
+    text-align: center;
+}
