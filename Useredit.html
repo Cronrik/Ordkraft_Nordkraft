@@ -1,88 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Viewports -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="refresh" content="30" />
-    <title>BrugerUI</title>
-    <!-- Meta Tags -->
-    <meta name="keywords" content="HTML, CSS, JavaScript" />
-    <meta name="description" content="Free Web tutorials" />
-    <meta name="keywords" content="HTML, CSS, JavaScript" />
-    <meta name="author" content="John Doe" />
-    <!-- css -->
-    <link rel="stylesheet" href="Assets/css/site.css" />
-    <link rel="stylesheet" href="Assets/css/user.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <header>
-      <img src="Assets/image/ordkraft-logo (1).png" alt="logo" id="navLogo" />
-      <input type="checkbox" id="navtoggleID" class="navtoggle" />
 
-      <label for="navtoggleID" class="navtoggleLabel">
-        <span>
-          <i class="fa-solid fa-bars fa-3x"></i>
-        </span>
-      </label>
-      <nav>
-        <section id="burgerMenu">
-          <img
-            src="Assets/image/COLOURBOX58944128.jpg"
-            alt="profilbillede"
-            id="profilbillede"
-          />
-          <section id="menuProfil">
-            <p id="butProfil">Min profil</p>
-            <p id="butProgram">Mit program</p>
-          </section>
-          <ul>
-            <li>Hjem</li>
-            <li>
-              <details>
-                <summary>Hvad kan jeg opleve?</summary>
-                <ul id="underpunkter">
-                  <li>Medvirkende</li>
-                  <li>Begivenheder</li>
-                </ul>
-              </details>
-            </li>
-            <li>Rutevejledning på Nordkraft</li>
-            <li>Køb Billet</li>
-          </ul>
-        </section>
-      </nav>
-    </header>
-    <main class="gridcontainer">
-      <section class="user_Cover">
-        <img src="Assets/Image/Userimg.png" alt="user_Img" />
+<head>
+  <!-- Viewports -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="refresh" content="30" />
+  <title>BrugerUI</title>
+  <!-- Meta Tags -->
+  <meta name="keywords" content="HTML, CSS, JavaScript" />
+  <meta name="description" content="Free Web tutorials" />
+  <meta name="keywords" content="HTML, CSS, JavaScript" />
+  <meta name="author" content="John Doe" />
+  <!-- css -->
+  <link rel="stylesheet" href="Assets/css/site.css" />
+  <link rel="stylesheet" href="Assets/css/user.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <img src="Assets/image/ordkraft-logo (1).png" alt="logo" id="navLogo">
+    <input type="checkbox" id="navtoggleID" class="navtoggle">
+
+    <label for="navtoggleID" class="navtoggleLabel">
+      <span>
+        <i class="fa-solid fa-bars fa-3x"></i>
+      </span>
+    </label>
+    <nav>
+      <section id="burgerMenu">
+        <img src="Assets/image/COLOURBOX58944128.jpg" alt="profilbillede" id="profilbillede">
+        <p id="butProfil"><a href="Userprofile.html">Min profil</a> </p>
+        <p id="butProgram"><a href="Mit_Program.html">Mit program</a> </p>
+        <ul>
+          <li> <a href="index.html"><i class="fa-solid fa-house"></i> Hjem </a></li>
+          <li>
+            <details>
+              <summary><i class="fa-solid fa-people-group"></i>Hvad kan jeg opleve?</summary>
+              <ul id="underpunkter">
+                <li> <a href="medvirkende.html"> <i class="fa-solid fa-book-open-reader"></i>Medvirkende
+                  </a></li>
+                <li> <a href="Begivenheder.html"> <i class="fa-regular fa-calendar-days"></i>Begivenheder</a></li>
+              </ul>
+            </details>
+          </li>
+          <li> <a href="Rutevejledning.html"> <i class="fa-solid fa-signs-post"></i>Rutevejledning på
+              Nordkraft</a> </li>
+          <li> <a href="https://www.place2book.com/da/sw2/sales/event_list/EM6518"> <i
+                class="fa-solid fa-ticket"></i>Køb Billet </a></li>
+        </ul>
       </section>
-      <section class="user_Form">
-        <form action="/action_page.php">
-          <i class="fa-solid fa-user"></i>
-          <input type="text" onfocus="this.value=''" value="Fulde navn">
-          <br/><i class="fa-solid fa-envelope"></i>
-          <input type="text" onfocus="this.value=''" value="Skriv din email her">
-        </form>
-        <!-- Knap til pop up -->
-        <button class="udløs">Gem ændringer</button>
-      </section>
-    </main>
-    <!-- Content for popup -->
-    <section class="popup">
-      <article class="mat">
-        <h1>Dine Ændringer er blevet gemt</h1>
-        <p>tryk et andet sted for lukke den ned</p>
-      </article>
+    </nav>
+  </header>
+  <main class="gridcontainer">
+    <section class="user_Cover">
+      <img src="Assets/Image/Userimg.png" alt="user_Img" />
     </section>
-    <!-- js -->
-    <script src="Assets/js/site.js"></script>
-  </body>
+    <section class="user_Form">
+      <form action="/action_page.php">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" onfocus="this.value=''" value="Fulde navn">
+        <br /><i class="fa-solid fa-envelope"></i>
+        <input type="text" onfocus="this.value=''" value="Skriv din email her">
+      </form>
+      <!-- Knap til pop up -->
+      <button class="udløs">Gem ændringer</button>
+    </section>
+  </main>
+  <!-- Content for popup -->
+  <section class="popup">
+    <article class="mat">
+      <h1>Dine Ændringer er blevet gemt</h1>
+      <p>tryk et andet sted for lukke den ned</p>
+    </article>
+  </section>
+  <!-- js -->
+  <script src="Assets/js/site.js"></script>
+</body>
+
 </html>
