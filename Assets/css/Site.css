@@ -7,6 +7,11 @@ body{
     padding: 0;
     margin: 0;
 }
+
+main{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 /* header/nav */
 header{
     background-color: #bf1f2c;
@@ -122,7 +127,7 @@ button{
     margin-top: 55px;
 }
 #kortNordkraft{
-    width: 90%;
+    width: 100%;
     height: 100%;
     display: block;
     margin-left: auto;
@@ -138,11 +143,12 @@ button{
 .gridcontainerAFO{
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    text-align: center;
 }
 
 /*Find din vej*/
 #kortAalborg{
-    width: 90%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
