@@ -147,7 +147,7 @@ h2 {
     margin-bottom: 5px;
 }
 
-.gridcontainerNB>i {
+.gridcontainerNB > i {
     margin: auto;
     color: #bf8034;
 }
@@ -172,14 +172,16 @@ h2 {
     color: grey;
 }
 
-#demo > p{
+.gridcontainerNB> p{
     color: black;
-    font-size: 10px;
-    margin-top: 20px;
+    font-size: 15px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #demo{
-    color: grey;
+    color: #bf8034;
 }
 
 button{
@@ -245,13 +247,20 @@ button{
     row-gap: 5px;
 }
 
-#eventDage > p{
+#eventDage > a{
     background-color: #bf1f2c;
     color: white;
     border-radius: 10px;
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
+    padding: 5%;
+    margin-bottom: 10px;
+}
+
+#eventDage > a > p{
+    padding: 0;
+    margin: 0;
 }
 /* Antal begivenheder på dagened begivenheder.html */
 
@@ -263,3 +272,9 @@ button{
     border-color: #bf1f2c;
 }
 /* søge felt begivenheder.html */
+
+/* hr i begivenheder.html */
+hr{
+    border: 1px solid red;
+}
+/* hr i begivenheder.html */
