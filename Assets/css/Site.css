@@ -55,8 +55,6 @@ nav {
 #burgerMenu {
     margin-top: 5%;
     margin-bottom: -10%;
-    /* display: grid;
-    grid-template-columns: 33% 33% 33%; */
 }
 
 .gridcontainerProfilBut{
@@ -75,25 +73,16 @@ nav {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    /* grid-column: 2;
-    grid-row: 1; */
+
 }
 
-/* #butProfil {
-    grid-row: 2;
-} */
 
-/* #butProgram {
-    grid-row: 2;
-} */
 
 .gridcontainerProfilBut > p {
     background-color: #bf1f2c;
     color: white;
     border-radius: 10px;
     text-align: center;
-    /* margin-left: 15%;
-    margin-right: 15%; */
     padding: 2px;
 }
 
@@ -109,7 +98,6 @@ nav {
 
 #burgerMenu>ul {
     list-style-type: none;
-    /* grid-row: 3; */
 }
 
 i {
@@ -139,7 +127,7 @@ li {
 
 /* header/nav */
 
-/*Main*/
+/*Main for index*/
 h1 {
     color: #bf1f2c;
     text-align: center;
@@ -606,4 +594,34 @@ hr{
         text-align: center;
     }
 
+}
+
+/* css fra rutevejledning.html */
+.venstrePilRute {
+    padding-left: 3%;
+    color: #bf1f2c;
+} 
+
+#map {
+    width: 100%;
+
+}
+
+.inputs {
+    padding-left: 5%;
+}
+
+#from,
+#to {
+    border-radius: 10px;
+}
+
+
+.pText {
+    padding-left: 5%;
+}
+
+.hrSection {
+    
+    background-color: rgb(223, 223, 223);
 }
