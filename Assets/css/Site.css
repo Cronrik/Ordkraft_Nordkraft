@@ -114,6 +114,10 @@ h2{
     margin-top: 50px;
 }
 
+#demo{
+    color: grey;
+}
+
 button{
     background-color: #bf1f2c;
     color: white;
