@@ -266,8 +266,9 @@ button {
 /* Antal begivenheder på dagened begivenheder.html */
 
 /* søge felt */
-#søgFelt{
-    width: 100%;
+#søgFelt {
+    width: 95%;
+    margin-left: 5px;
     border-radius: 50px;
     border-width: 2px;
     border-color: #bf1f2c;
