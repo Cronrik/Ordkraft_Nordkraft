@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <!-- Viewports -->
     <meta charset="UTF-8" />
@@ -60,20 +60,28 @@
         </section>
       </nav>
     </header>
-    <main>
+    <main class="gridcontainer">
       <section class="user_Cover">
         <img src="Assets/Image/Userimg.png" alt="user_Img" />
       </section>
-      <section>
+      <section class="user_Form">
         <form action="/action_page.php">
           <i class="fa-solid fa-user"></i>
-          <input type="text" id="fname" name="fname" value="John" /><br />
-          <i class="fa-solid fa-envelope"></i>
-          <input type="text" id="mail" name="lname" value="Doe" /><br /><br />
-          <input type="submit" value="Submit" />
+          <input type="text" onfocus="this.value=''" value="Fulde navn">
+          <br/><i class="fa-solid fa-envelope"></i>
+          <input type="text" onfocus="this.value=''" value="Skriv din email her">
         </form>
+        <!-- Knap til pop up -->
+        <button class="udløs">Gem ændringer</button>
       </section>
     </main>
+    <!-- Content for popup -->
+    <section class="popup">
+      <article class="mat">
+        <h1>Dine Ændringer er blevet gemt</h1>
+        <p>tryk et andet sted for lukke den ned</p>
+      </article>
+    </section>
     <!-- js -->
     <script src="Assets/js/site.js"></script>
   </body>
