@@ -1,79 +1,115 @@
-html{
+html {
     scroll-behavior: smooth;
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     padding: 0;
     margin: 0;
 }
 
-main{
+main {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 /* header/nav */
-header{
+header {
     background-color: #bf1f2c;
     margin: 0;
     padding: 0;
     padding-bottom: 20px;
 }
-#burgerMenu{
+
+.navtoggle {
+    display: none;
+}
+
+nav {
+    display: none;
+    position: relative;
+}
+
+.navtoggle:checked~nav {
+    display: block;
+    background-color: white;
+}
+
+.navtoggleLabel {
+    margin-left: 10px;
+    color: white;
+}
+
+#navLogo {
+    float: right;
+    height: 55px;
+    width: 51px;
+    margin-right: 10px;
+}
+
+.navtoggleLabel>span>i {
+    color: white;
+}
+
+#burgerMenu {
     margin-top: 5%;
     margin-bottom: -10%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
-#profilbillede{
+
+#profilbillede {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    grid-column: 2;
+    grid-row: 1;
 }
 
-#menuProfil > p{
+#butProfil {
+    grid-row: 2;
+}
+
+#butProgram {
+    grid-row: 2;
+}
+
+#burgerMenu>p {
     background-color: #bf1f2c;
     color: white;
     border-radius: 10px;
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
+    padding: 2px;
 }
 
-#menuProfil{
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.navtoggle{
-    display: none;
-}
-nav{
-    display: none;
-    position: relative;
-}
-
-.navtoggle:checked ~ nav {
-    display: block;
-    background-color: white;
-}
-
-.navtoggleLabel{
-    margin-left: 10px;
+#butProfil>a {
+    text-decoration: none;
     color: white;
 }
 
-#navLogo{
-    float: right;
-    height: 55px;
-    width: 51px;
-    margin-right: 10px;
+#butProgram>a {
+    text-decoration: none;
+    color: white;
 }
-ul{
+
+#burgerMenu>ul {
     list-style-type: none;
+    grid-row: 3;
 }
-li{
+
+i {
+    color: #bf8034;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
     padding: 7px;
     margin: 5px;
     border-style: solid;
@@ -83,38 +119,43 @@ li{
     width: 50vw;
 }
 
-#underpunkter > li{
+#underpunkter>li {
     width: 25vw;
 }
+
 
 
 /* header/nav */
 
 /*Main*/
-h1{
+h1 {
     color: #bf1f2c;
     text-align: center;
 }
-h2{
+
+h2 {
     color: #bf1f2c;
 }
+
 /*Næstkommende begivenheder*/
 
-.gridcontainerNB{
+.gridcontainerNB {
     display: grid;
     grid-template-columns: 20% 60% 20%;
     border-style: solid;
     border-color: black;
 }
-.gridcontainerNB > i{
+
+.gridcontainerNB>i {
     margin: auto;
 }
-.locationTekst{
+
+.locationTekst {
     margin: auto;
     margin-top: 50px;
 }
 
-button{
+button {
     background-color: #bf1f2c;
     color: white;
     border-radius: 10px;
@@ -124,14 +165,14 @@ button{
     position: absolute;
     left: 30%;
     margin-top: 10px;
-    
 }
 
 /*Undgå at spilde tid*/
-#section2{ 
+#section2 {
     margin-top: 55px;
 }
-#kortNordkraft{
+
+#kortNordkraft {
     width: 100%;
     height: 100%;
     display: block;
@@ -141,18 +182,20 @@ button{
     border-style: solid;
     border-radius: 10px;
 }
+
 /*Åbningstider for Ordkraft*/
-#section3 > h2 > i{
+#section3>h2>i {
     color: #bf8034;
 }
-.gridcontainerAFO{
+
+.gridcontainerAFO {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     text-align: center;
 }
 
 /*Find din vej*/
-#kortAalborg{
+#kortAalborg {
     width: 100%;
     display: block;
     margin-left: auto;
@@ -162,6 +205,6 @@ button{
     border-radius: 10px;
 }
 
-#section4 > p > i{
+#section4>p>i {
     color: #bf8034;
 }
