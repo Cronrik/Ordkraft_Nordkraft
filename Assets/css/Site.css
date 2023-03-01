@@ -111,6 +111,18 @@ h2{
     color: #bf8034;
 }
 
+#star{
+    color: grey;
+}
+
+#star2{
+    color: grey;
+}
+
+#star3{
+    color: grey;
+}
+
 .gridcontainerNB > p{
     color: black;
     font-size: 15px;
