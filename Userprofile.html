@@ -26,42 +26,40 @@
   <body>
     <!-- navigation -->
     <header>
-      <img src="Assets/image/ordkraft-logo (1).png" alt="logo" id="navLogo" />
-      <input type="checkbox" id="navtoggleID" class="navtoggle" />
+      <img src="Assets/image/ordkraft-logo (1).png" alt="logo" id="navLogo">
+      <input type="checkbox" id="navtoggleID" class="navtoggle">
 
       <label for="navtoggleID" class="navtoggleLabel">
-        <span>
-          <i class="fa-solid fa-bars fa-3x"></i>
-        </span>
+          <span>
+              <i class="fa-solid fa-bars fa-3x"></i>
+          </span>
       </label>
       <nav>
-        <section id="burgerMenu">
-          <img
-            src="Assets/image/COLOURBOX58944128.jpg"
-            alt="profilbillede"
-            id="profilbillede"
-          />
-          <section id="menuProfil">
-            <p id="butProfil">Min profil</p>
-            <p id="butProgram">Mit program</p>
+          <section id="burgerMenu">
+              <img src="Assets/image/COLOURBOX58944128.jpg" alt="profilbillede" id="profilbillede">
+              <p id="butProfil"><a href="Userprofile.html">Min profil</a> </p>
+              <p id="butProgram"><a href="Mit_Program.html">Mit program</a> </p>
+              <ul>
+                  <li> <a href="index.html"><i class="fa-solid fa-house"></i> Hjem </a></li>
+                  <li>
+                      <details>
+                          <summary><i class="fa-solid fa-people-group"></i>Hvad kan jeg opleve?</summary>
+                          <ul id="underpunkter">
+                              <li> <a href="medvirkende.html"> <i class="fa-solid fa-book-open-reader"></i>Medvirkende
+                                  </a></li>
+                              <li> <a href="Begivenheder.html"> <i
+                                          class="fa-regular fa-calendar-days"></i>Begivenheder</a></li>
+                          </ul>
+                      </details>
+                  </li>
+                  <li> <a href="Rutevejledning.html"> <i class="fa-solid fa-signs-post"></i>Rutevejledning på
+                          Nordkraft</a> </li>
+                  <li> <a href="https://www.place2book.com/da/sw2/sales/event_list/EM6518"> <i
+                              class="fa-solid fa-ticket"></i>Køb Billet </a></li>
+              </ul>
           </section>
-          <ul>
-            <li>Hjem</li>
-            <li>
-              <details>
-                <summary>Hvad kan jeg opleve?</summary>
-                <ul id="underpunkter">
-                  <li>Medvirkende</li>
-                  <li>Begivenheder</li>
-                </ul>
-              </details>
-            </li>
-            <li>Rutevejledning på Nordkraft</li>
-            <li>Køb Billet</li>
-          </ul>
-        </section>
       </nav>
-    </header>
+  </header>
     <main class="gridcontainer">
       <section class="user_Cover">
         <img src="Assets/Image/Userimg.png" alt="user_Img" />
