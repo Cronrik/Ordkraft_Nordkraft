@@ -226,3 +226,28 @@ button{
 #section4>p>i {
     color: #bf8034;
 }
+
+/* Antal begivenheder på dagened begivenheder.html */
+
+.gridcontainerDE{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    row-gap: 5px;
+}
+
+#eventDage > p{
+    background-color: #bf1f2c;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* Antal begivenheder på dagened begivenheder.html */
+
+/* søge felt begivenheder.html */
+#søgFelt{
+    width: 100%;
+}
+/* søge felt begivenheder.html */
